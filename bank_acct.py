@@ -57,8 +57,6 @@ def log_on():
         if account.acct_num == user_acct_num and account.password == user_password:
             print("Logged on!")
             return account
-        else:
-            print("Sorry, the account number or password you entered is incorrect.")
 
     return None
 
